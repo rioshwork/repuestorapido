@@ -331,11 +331,15 @@ h4{
 
 /*Main Ofertas*/
 
+img {
+   width: 100%;
+   height: auto;
+   }
 
 h4{
    text-align: center;
    width: 90%;
-   background: rgba(10,80, 113,0.80);
+   background: rgba(113, 10, 10, 0.8);
    margin-left: auto;
    margin-right: auto;
    color: white;
@@ -346,7 +350,7 @@ h4{
 }
 
 .ofertas{
-   width: 70vh;
+   width: 70%;
    margin-left: auto;
    margin-right: auto;
    display: flex;
