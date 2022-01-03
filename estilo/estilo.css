@@ -7,6 +7,7 @@
 
 body{
    background-image: url(../imagenes/back-ground.png);
+   trans
 }
 
 /*Header y Menu Navegacion*/
@@ -430,6 +431,8 @@ h4{
 
 footer{
    bottom: 0px;
+   margin-left: auto;
+   margin-right: auto;
    background-color: rgb(10,80, 113,0.95);
    }
    .footer-distributed{
