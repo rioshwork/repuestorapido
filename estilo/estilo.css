@@ -431,6 +431,7 @@ h4{
 
 footer{
    bottom: 0px;
+   width: 100%;
    margin-left: auto;
    margin-right: auto;
    background-color: rgb(10,80, 113,0.95);
