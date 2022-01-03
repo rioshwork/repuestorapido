@@ -346,7 +346,7 @@ h4{
 }
 
 .ofertas{
-   width: 70%;
+   width: 70vh;
    margin-left: auto;
    margin-right: auto;
    display: flex;
