@@ -13,11 +13,14 @@ body{
 
 header{
    margin-bottom: 2vh;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 
 h1 span{
    color: red; 
+   margin-left: auto;
 }
 
 nav{
@@ -422,7 +425,6 @@ h4{
 /*footer*/
 
 footer{
-   height: fit-content;
    bottom: 0px;
    background-color: rgb(10,80, 113,0.95);
    }
