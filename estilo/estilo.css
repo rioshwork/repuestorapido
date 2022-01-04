@@ -1,18 +1,19 @@
 *{
-   margin: 0;
-   padding: 0;
+   margin: 0px;
+   padding: 0px;
    box-sizing: border-box;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body{
    background-image: url(../imagenes/back-ground.png);
-   trans
+   width: 100%;
 }
 
 /*Header y Menu Navegacion*/
 
 header{
+   width: 100%;
    margin-bottom: 2vh;
    margin-left: auto;
    margin-right: auto;
@@ -214,7 +215,7 @@ h3{
    margin-bottom: 2vh;
    color: white;
    text-align: center;
-   font-size: 35px;
+   font-size: 25vh;
    border: double 5px;
 }
 
@@ -324,12 +325,6 @@ h4{
 
 }
 
-.mapa{
-   
-}
-
-
-
 /*Main Ofertas*/
 
 img {
@@ -431,9 +426,6 @@ h4{
 
 footer{
    bottom: 0px;
-   margin: 0px!important;
-   margin-left: 0px auto;
-   margin-right: 0px auto;
    background-color: rgb(10,80, 113,0.95);
    }
    .footer-distributed{
