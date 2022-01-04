@@ -25,6 +25,12 @@ h1 span{
    margin-left: auto;
 }
 
+@media (min-width: 420px) {
+   h1 {
+   font-size: 25px;
+   }
+   }
+
 nav{
    display: flex;
    width: fit-content;
@@ -215,7 +221,7 @@ h3{
    margin-bottom: 2vh;
    color: white;
    text-align: center;
-   font-size: 25vw;
+   font-size: 35px;
    border: double 5px;
 }
 
