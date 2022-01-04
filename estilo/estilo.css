@@ -427,7 +427,6 @@ h4{
 
 footer{
    bottom: 0px;
-   background-color: rgb(10,80, 113,0.95);
    }
    .footer-distributed{
     background-color: rgb(10,80, 113,0.95);
@@ -566,11 +565,10 @@ footer{
    }
     
     
-   @media (max-width: 880px) {
+   @media (max-width: 800px) {
     
     .footer-distributed{
     font: bold 14px sans-serif;
-    
     }
     
     .footer-distributed .footer-left,
