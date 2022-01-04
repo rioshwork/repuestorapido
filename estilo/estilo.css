@@ -39,9 +39,10 @@ nav{
 }
 nav .icon{
    width: 45%;
-   font-size: 35px;
+   font-size: 8vw;
    font-weight: 800;
    margin-right: 20px;
+   margin-left: 1vh;
    color: #fff;
    cursor: pointer;
 }
@@ -136,15 +137,17 @@ nav .search_box span::after{
    nav .icon{
       display: inline-block;
       padding: 15px 30px;
+      font-size: 75%;
+      height: 20vh;
    }
     nav .search_box{
-      width: 100%;
+      width: 90%;
       display: inline-flex;
       justify-content: center;
       margin-bottom: 15px;
    }
    nav .search_box input{
-      width: 90%;
+      width: 100%;
    }
    nav ol{
       display: flex;
@@ -579,9 +582,13 @@ footer{
    
    
 @media (max-width: 880px) {
-   
+
    .footer-distributed{
    font: bold 14px ; 
+   }
+
+  h2 span{
+      font-size: 75%;
    }
    
    .footer-distributed .footer-left,
