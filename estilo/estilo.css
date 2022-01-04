@@ -25,12 +25,6 @@ h1 span{
    margin-left: auto;
 }
 
-@media (min-width: 420px) {
-   h1 {
-   font-size: 25px;
-   }
-   }
-
 nav{
    display: flex;
    width: fit-content;
@@ -49,6 +43,15 @@ nav .icon{
    color: #fff;
    cursor: pointer;
 }
+
+@media (min-width: 420px) {
+   nav .icon {
+   font-size: 2vw;
+   border: blue solid 1px;
+   }
+   }
+
+
 nav ol{
    display: flex;
    list-style: none;
@@ -181,7 +184,7 @@ nav .search_box span::after{
        display: block;
        position: absolute;
        top: 20px;
-       right: 80px;
+       right: 40px;
        cursor: pointer;
     }
     nav .bar #times{
