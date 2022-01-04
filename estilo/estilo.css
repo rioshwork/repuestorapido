@@ -44,14 +44,6 @@ nav .icon{
    cursor: pointer;
 }
 
-@media (min-width: 420px) {
-   nav .icon {
-   font-size: 2vw;
-   border: blue solid 1px;
-   }
-   }
-
-
 nav ol{
    display: flex;
    list-style: none;
