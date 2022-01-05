@@ -14,6 +14,7 @@ body{
 
 header{
    width: 100%;
+   height: 20%;
    margin-bottom: 2vh;
    margin-left: auto;
    margin-right: auto;
@@ -29,8 +30,7 @@ nav{
    display: flex;
    flex-wrap: wrap;
    width: fit-content;
-   margin-left: auto;
-   margin-right: auto;
+   margin: auto;
    background: rgba(10,80, 113,0.95);
    position: relative;
    justify-content: space-between;
@@ -38,11 +38,9 @@ nav{
    padding: 15px 30px;
 }
 nav .icon{
-   width: 45%;
-   font-size: 8vw;
+   width: 50%;
+   font-size: 6vw;
    font-weight: 800;
-   margin-right: 20px;
-   margin-left: 1vh;
    color: #fff;
    cursor: pointer;
 }
@@ -55,27 +53,28 @@ nav ol{
    align-self: center;
    margin-left: auto;
    margin-right: auto;
-   margin-top: 2vh;
+   margin-top: 1vh;
 }
 nav ol li{
    margin: 0 2px;
 }
 nav ol li a{
    color: #fff;
-   font-size: 20px;
+   font-size: 2vw;
    text-decoration: none;
    text-transform: capitalize;
    letter-spacing: 1px;
-   padding: 5px 10px;
+   padding: 1vh 2vh;
 }
 nav ol li:hover a{
     background: #fff;
     color: rgb(10,80, 113);
 }
 nav .search_box{
-   width: 45%;
+   width: 39%;
    display: flex;
-   margin: auto 0;
+   margin-top: auto;
+   margin-bottom: 2vh;
    height: 35px;
    line-height: 35px;
 }
@@ -86,7 +85,7 @@ nav .search_box input{
     height: 100%;
     padding: 0 10px;
     font-size: 20px;
-    width: 350px;
+    width: 90%;
 }
 nav .search_box span{
    color: #0a5071;
@@ -137,8 +136,8 @@ nav .search_box span::after{
    nav .icon{
       display: inline-block;
       padding: 15px 30px;
-      font-size: 75%;
       height: 20vh;
+      width: 90%;
    }
     nav .search_box{
       width: 90%;
@@ -186,8 +185,8 @@ nav .search_box span::after{
    nav .bar{
       display: block;
       position: absolute;
-      top: 20px;
-      right: 40px;
+      top: 25px;
+      right: 60px;
       cursor: pointer;
    }
    nav .bar #times{
