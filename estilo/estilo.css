@@ -134,11 +134,12 @@ nav .search_box span::after{
       padding: 0;
    }
    nav .icon{
-      font-size: 25px;
+      font-size: 30px;
       display: inline-block;
       padding: 10px 25px;   
       width: 90%;
       margin-top: 15px;
+      margin-right: 10%;
    }
     nav .search_box{
       width: 90%;
